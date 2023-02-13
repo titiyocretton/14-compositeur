@@ -2,9 +2,24 @@ body {
   max-width: 320px;
   margin: auto;
   background: #edc878;
+  color: #2a4a92;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background: #2a4a92;
+  color: #edc878;
+}
+
+.button {
+  padding: 5px;
 }
