@@ -24,6 +24,9 @@ header .container {
 footer {
   background: #2a4a92;
   color: #edc878;
+  border-bottom: #edc878 double 10px;
+  border-top: #edc878 double 10px;
+}
 }
 
 .button {
@@ -40,4 +43,12 @@ footer {
 
 .image-moyen {
   max-width: 50%;
+}
+
+.realisateur,
+.compositeur {
+  background: black;
+  color: #edc878;
+  border-bottom: #edc878 double 10px;
+  border-top: #edc878 double 10px;
 }
