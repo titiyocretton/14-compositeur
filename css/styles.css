@@ -25,12 +25,14 @@ header .container {
 footer {
   background: #2a4a92;
   color: #edc878;
-  border-top: #edc878 double 10px;
+  border-top: #edc878 double 6px;
   text-align: center;
 }
 
 .button {
   padding: 5px;
+  border: #2a4a92 solid 2px;
+  border-radius: 15px;
 }
 
 .petite-image {
@@ -49,8 +51,8 @@ footer {
 .compositeur {
   background: black;
   color: #edc878;
-  border-bottom: #edc878 double 10px;
-  border-top: #edc878 double 10px;
+  border-bottom: #edc878 double 6px;
+  border-top: #edc878 double 6px;
 }
 
 footer .container {
@@ -59,4 +61,8 @@ footer .container {
 
 h1 {
   color: white;
+}
+
+header nav {
+  border-bottom: #2a4a92 solid 2px;
 }
