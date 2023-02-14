@@ -19,6 +19,7 @@ img {
 
 header .container {
   justify-content: space-between;
+  text-align: center;
 }
 
 footer {
@@ -54,4 +55,8 @@ footer {
 
 footer .container {
   justify-content: center;
+}
+
+h1 {
+  color: white;
 }
