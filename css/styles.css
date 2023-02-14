@@ -12,7 +12,6 @@ img {
 
 .container {
   display: flex;
-  justify-content: space-between;
 }
 
 footer {
@@ -22,4 +21,12 @@ footer {
 
 .button {
   padding: 5px;
+}
+
+.petite-image {
+  max-width: 20%;
+}
+
+.nav {
+  justify-content: space-between;
 }
