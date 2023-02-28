@@ -74,7 +74,7 @@ header nav {
 
 .realisateur {
   background-image: url(../img/realisateur.jpg);
-  padding: 0 0 350px 0;
+  padding: 0 20px 350px 20px;
   background-position: center;
   background-size: cover;
 }
