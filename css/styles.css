@@ -61,8 +61,20 @@ footer .container {
 
 h1 {
   color: white;
+  background-image: url(../img/rat-titre.png);
+  background-size: cover;
+  padding: 5px 0 260px 0;
+  text-align: center;
+  background-position: center;
 }
 
 header nav {
   border-bottom: #2a4a92 solid 2px;
+}
+
+.realisateur {
+  background-image: url(../img/realisateur.jpg);
+  padding: 0 0 350px 0;
+  background-position: center;
+  background-size: cover;
 }
