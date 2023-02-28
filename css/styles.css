@@ -4,6 +4,7 @@ body {
   background: #edc878;
   color: #2a4a92;
   font-family: 'Mukta', sans-serif;
+  font-size: 14px;
 }
 
 img {
@@ -14,12 +15,10 @@ img {
 .container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 header .container {
   justify-content: space-between;
-  text-align: center;
 }
 
 footer {
@@ -64,9 +63,10 @@ h1 {
   color: white;
   background-image: url(../img/rat-titre.png);
   background-size: cover;
-  padding: 5px 0 260px 0;
+  padding: 25px 10px 300px 10px;
   text-align: center;
   background-position: center;
+  font-size: 24px;
 }
 
 header nav {
@@ -81,7 +81,11 @@ header nav {
 }
 
 .element, header nav {
-  padding: 0 20px 0 20px;
+  padding: 0 20px 10px 20px;
+}
+
+.element {
+  padding: 40px 0 40px 0;
 }
 
 .container-centrer {
@@ -93,4 +97,13 @@ header nav {
 main .container {
   align-items: baseline;
   justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #2a4a92;
+}
+
+h2 {
+  font-size: 20px;
 }
