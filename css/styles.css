@@ -89,3 +89,8 @@ header nav {
   flex-direction: column;
   align-items: center;
 }
+
+main .container {
+  align-items: baseline;
+  justify-content: space-around;
+}
